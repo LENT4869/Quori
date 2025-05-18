@@ -22,18 +22,20 @@ Quori is a security-focused browser built with RPS (Random Passphrase System) au
 - 📜 **Login Records**  
   Successful and failed login attempts are recorded (locally).
 
-- 🛠️ **Secure local storage**  
-  Hash of mnemonic is stored in `IndexedDB` with salt. Not sent anywhere.
+-🛠️ Secure local storage
+  The mnemonic is hashed with salt and stored safely on your local device. No data is ever transmitted externally.
 
 ---
-## 🧪 For Web3 Users (Beta Notice)
+-🧪 For Web3 Users (Beta Notice)
+  This is a beta version of Quori. If you're a Web3 user, please follow these important safety recommendations:
 
-This is a **beta build**. If you're a Web3 user, please follow these security suggestions:
+  Use a brand-new test wallet — do NOT import your real wallet for testing
 
-- Use a **new test wallet** (DO NOT import your real wallet)
-- Carefully record the 12 mnemonic words shown on first launch — they won’t be shown again
-- If you **reset the RPS**, the mnemonic and verification status will be erased and reinitialized
-- Your **local login history** (success/failure) will NOT be cleared during reset
+  Carefully write down the 12 mnemonic words shown at first launch — they will not be shown again
+
+  If you choose to reset RPS, all stored mnemonic and verification status will be cleared and a new setup will begin
+
+  Your local login records (success or failure) will remain intact even after a reset
 
 
 ---
