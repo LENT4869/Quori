@@ -23,10 +23,12 @@ Quori is a security-focused browser built with RPS (Random Passphrase System) au
   Successful and failed login attempts are recorded (locally).
 
 -🛠️ Secure local storage
+
   The mnemonic is hashed with salt and stored safely on your local device. No data is ever transmitted externally.
 
 ---
 -🧪 For Web3 Users (Beta Notice)
+
   This is a beta version of Quori. If you're a Web3 user, please follow these important safety recommendations:
 
   Use a brand-new test wallet — do NOT import your real wallet for testing
