@@ -26,13 +26,15 @@ Quori is a security-focused browser built with RPS (Random Passphrase System) au
   Hash of mnemonic is stored in `IndexedDB` with salt. Not sent anywhere.
 
 ---
-
 ## 🧪 For Web3 Users (Beta Notice)
 
-This is a **beta build**. For maximum safety, please:
-- Use a new test wallet (DO NOT import your real one)
-- Write down your 12 mnemonic words carefully
-- If you reset RPS, all local data will be cleared
+This is a **beta build**. If you're a Web3 user, please follow these security suggestions:
+
+- Use a **new test wallet** (DO NOT import your real wallet)
+- Carefully record the 12 mnemonic words shown on first launch — they won’t be shown again
+- If you **reset the RPS**, the mnemonic and verification status will be erased and reinitialized
+- Your **local login history** (success/failure) will NOT be cleared during reset
+
 
 ---
 
