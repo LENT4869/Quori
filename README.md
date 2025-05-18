@@ -1,4 +1,3 @@
-
 # Quori 🔒
 
 Quori is a security-focused browser built with RPS (Random Passphrase System) authentication before use — made for Web3 users who care about wallet safety.
@@ -69,4 +68,3 @@ Inspired by the need for secure access to Web3 environments.
 
 (c) 2025 LENT — All rights reserved.  
 Quori uses the [Chromium Project](https://www.chromium.org/) under the [BSD-3 license](https://chromium.googlesource.com/chromium/src/+/main/LICENSE).
-
