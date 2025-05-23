@@ -50,12 +50,17 @@ Quori 是一款專注於安全性的瀏覽器，在使用前需要通過 RPS（�
 
 ## 📷 畫面截圖
 
-| First Launch | RPS Verification | Unlocked |
-| ------------ | ---------------- | -------- |
-|![螢幕擷取畫面 2025-05-23 084718](https://github.com/user-attachments/assets/d41d6131-bd17-477d-99fe-13b869ab7c20)
-  |   ![螢幕擷取畫面 2025-05-23 084545](https://github.com/user-attachments/assets/ded6970a-0bfe-4f69-b1bf-8193b82a04fe)
-   | ![螢幕擷取畫面 2025-05-23 084838](https://github.com/user-attachments/assets/4579f7d3-f17c-42c8-b434-41354a62b96b)
- |
+| First Launch 
+![螢幕擷取畫面 2025-05-23 084718](https://github.com/user-attachments/assets/395e912b-eb9f-4010-98d8-6e6bb732eaa5)
+
+|RPS Verification 
+![螢幕擷取畫面 2025-05-23 084545](https://github.com/user-attachments/assets/48310c20-5ef3-4db6-98ae-75ee6e6322df)
+
+| Unlocked |
+
+![螢幕擷取畫面 2025-05-23 084838](https://github.com/user-attachments/assets/766e49de-ed40-494a-ad82-3c12129852b1)
+
+
 
 ---
 
