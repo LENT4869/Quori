@@ -1,83 +1,92 @@
-# 🔒 Quori – RPS-Gated Browser for Web3 Safety
+# Quori 🔒
 
-**Quori** is a privacy-enhanced browser built on Chromium, designed to protect users in the Web3 space with a built-in **Random Passphrase System (RPS)** — a lightweight local authentication layer required before any browsing activity.
+Quori is a security-focused browser that requires RPS (Random Passphrase System) authentication before use — built specifically for Web3 users who care about wallet safety.
 
-> 🧠 On first launch, you'll receive **12 custom mnemonic words**. These are required to unlock and use the browser.
+> 🧠 On first launch, 12 custom mnemonic words will be shown. These are required to unlock the browser.
 
 ---
 
 ## ✨ Features
 
 - 🔐 **RPS Authentication Gate**  
-  Unlock the browser by passing a 3-of-12 word challenge selected randomly each time.
+  The browser can only be unlocked by passing a verification of 3 randomly chosen words from your 12-word phrase.
 
-- 🛑 **Security Locks Before Verification**
-  - Blocked: extensions
-  - Blocked: DevTools
-  - Blocked: new tab page
-  - Blocked: URL navigation
-  - Blocked: plugin icons
-  - Blocked: app menu (⋮)
+- 🛑 **Blocks the following actions before successful verification:**  
+  - Extension usage  
+  - Opening DevTools  
+  - Navigating to any URL  
+  - Accessing the app menu (three dots)  
+  - Bookmarks and new tabs  
+  - Plugin icon clicks
 
-- 📜 **Login Records**
-  - All successful and failed login attempts are **stored locally**
-  - Includes input attempts on failure
+- 📜 **Login Records**  
+  Both successful and failed login attempts are recorded locally.
 
-- 🧪 **Designed for Web3 Users**
-  - Use a **test wallet only**
-  - Do **not** import your real wallet during testing
-  - Resetting RPS will **regenerate new words** and clear previous authentication
+- 🛠️ **Secure Local Storage**  
+  The mnemonic is hashed with a salt and safely stored on your device. No data is transmitted externally.
 
-- 🔏 **Local-Only Storage**
-  - Mnemonic words are **hashed with salt** and stored via IndexedDB
-  - No data is ever uploaded — 100% offline
+---
+
+## 🧪 Beta Version Notes
+
+This is a beta version of Quori. Web3 users should follow these security guidelines:
+
+- Use a brand-new test wallet — do **not** import your real wallet for testing.
+- Carefully write down the 12 mnemonic words shown at first launch — they will **not** be shown again.
+- If you choose to reset RPS, all stored mnemonics and verification status will be cleared and setup will start over.
+- Local login records (successful or failed) are retained even after reset.
+- Set Quori as your default browser to ensure link protection.
 
 ---
 
 ## 🪛 Installation
 
-https://drive.google.com/drive/folders/1iuoVJE6BT_kMrpXn_vz_3OiBVOILLgXm?usp=drive_link
-
-- Run `mini_installer.exe`
-- Upon launch, follow the RPS setup
-
-If icons or app name don’t update, try clearing your icon cache and reinstalling.
+Download the latest installer from:  
+[https://drive.google.com/drive/folders/1iuoVJE6BT_kMrpXn_vz_3OiBVOILLgXm?usp=sharing](https://drive.google.com/drive/folders/1iuoVJE6BT_kMrpXn_vz_3OiBVOILLgXm?usp=sharing)  
+Run the installer and follow the on-screen instructions.
 
 ---
 
-## 🖼️ Screenshots
+## 📷 Screenshots
 
-| First Launch           | RPS Verification       | Unlocked Browser View   |
-|------------------------|------------------------|--------------------------|
-| *(screenshot here)*    | *(screenshot here)*    | *(screenshot here)*     |
+| First Launch 
+![螢幕擷取畫面 2025-05-23 084533](https://github.com/user-attachments/assets/c33e17a5-71de-499f-8678-f7214037d922)
+
+|RPS Verification 
+![螢幕擷取畫面 2025-05-23 084545](https://github.com/user-attachments/assets/dda7c3c4-8605-4812-8c6d-a4166d91344f)
+
+| Unlocked |
+![螢幕擷取畫面 2025-05-23 084838](https://github.com/user-attachments/assets/1e528830-6153-43b2-95aa-a8d8f83002da)
+
 
 ---
 
-## ⚠️ Known Notes
+## ⚠️ Beta Limitations
 
-- Some icons (taskbar/start menu) might not update immediately. Clear system icon cache if needed.
-- This is a **Beta release**. Bugs may exist — please report them!
+Currently in beta, the following elements are still under development:
+
+- 🚧 Icons and branding appearance are not yet fully replaced (some Chromium defaults may still appear)
+- 📦 Installer name and icon remain default (this does not affect functionality or verification)
+
+The core security functionality is stable. A complete branding and install experience will be updated in future releases.
 
 ---
 
-## 💬 Feedback & Issues
+## 📣 Feedback Welcome
 
-Feel free to open an [Issue](https://github.com/LENT4869/Quori/issues) for:
-
-- Bug reports
-- Suggestions
-- Contributions
+Encounter bugs? Have suggestions?  
+Submit issues or feedback via the [Issues Page](https://github.com/LENT4869/Quori/issues).
 
 ---
 
 ## 👤 Author
 
-Made by [**LENT**](https://github.com/LENT4869)  
-Inspired by a desire to **rethink browser-level protection** for crypto and Web3 access.
+Developed by **LENT**  
+Inspired by the need for secure Web3 access and wallet safety.
 
 ---
 
 ## 🪪 License
 
 (c) 2025 LENT — All rights reserved.  
-Quori uses the [Chromium Project](https://www.chromium.org/) under the [BSD-3 license](https://chromium.googlesource.com/chromium/src/+/main/LICENSE)
+Quori is based on the Chromium project and licensed under the BSD-3 License.
