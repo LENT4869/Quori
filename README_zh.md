@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/8fb002d4-2fac-4552-9543-5f9698654ac6)
 # Quori 🔒
 
 Quori 是一款專注於安全性的瀏覽器，在使用前需要通過 RPS（隨機助記詞系統）進行驗證，專為注重錢包安全的 Web3 使用者設計。
@@ -53,7 +52,10 @@ Quori 是一款專注於安全性的瀏覽器，在使用前需要通過 RPS（�
 
 | First Launch | RPS Verification | Unlocked |
 | ------------ | ---------------- | -------- |
-| *(add here)* | *(add here)*     | *(add here)* |
+|![螢幕擷取畫面 2025-05-23 084718](https://github.com/user-attachments/assets/d41d6131-bd17-477d-99fe-13b869ab7c20)
+  |   ![螢幕擷取畫面 2025-05-23 084545](https://github.com/user-attachments/assets/ded6970a-0bfe-4f69-b1bf-8193b82a04fe)
+   | ![螢幕擷取畫面 2025-05-23 084838](https://github.com/user-attachments/assets/4579f7d3-f17c-42c8-b434-41354a62b96b)
+ |
 
 ---
 
