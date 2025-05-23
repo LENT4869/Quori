@@ -1,76 +1,77 @@
-# Quori 🔒
+🔒 Quori – RPS-Gated Browser for Web3 Safety
+Quori is a privacy-enhanced browser built on Chromium, designed to protect users in the Web3 space with a built-in Random Passphrase System (RPS) — a lightweight local authentication layer required before any browsing activity.
 
-Quori is a security-focused browser built with RPS (Random Passphrase System) authentication before use — made for Web3 users who care about wallet safety.
+🧠 On first launch, you'll receive 12 custom mnemonic words. These are required to unlock and use the browser.
 
-> 🧠 You will be shown 12 custom mnemonic words on first launch — required to unlock the browser.
+✨ Features
+🔐 RPS Authentication Gate
+Unlock the browser by passing a 3-of-12 word challenge selected randomly each time.
 
----
+🛑 Security Locks Before Verification
 
-## ✨ Features
+Blocked: extensions
 
-- 🔐 **RPS Authentication Gate**  
-  Browser must be unlocked using random 3-of-12 word validation.
-  
-- 🛑 **Blocks actions before verification:**  
-  - Extension usage  
-  - DevTools opening  
-  - Any URL navigation  
-  - App menu (three dots) access  
-  - Bookmarks and new tabs  
-  - Plugin icon clicks  
+Blocked: DevTools
 
-- 📜 **Login Records**  
-  Successful and failed login attempts are recorded (locally).
+Blocked: new tab page
 
--🛠️ Secure local storage
+Blocked: URL navigation
 
-  The mnemonic is hashed with salt and stored safely on your local device. No data is ever transmitted externally.
+Blocked: plugin icons
 
----
--🧪 For Web3 Users (Beta Notice)
+Blocked: app menu (⋮)
 
-  This is a beta version of Quori. If you're a Web3 user, please follow these important safety recommendations:
+📜 Login Records
 
-  Use a brand-new test wallet — do NOT import your real wallet for testing
+All successful and failed login attempts are stored locally
 
-  Carefully write down the 12 mnemonic words shown at first launch — they will not be shown again
+Includes input attempts on failure
 
-  If you choose to reset RPS, all stored mnemonic and verification status will be cleared and a new setup will begin
+🧪 Designed for Web3 Users
 
-  Your local login records (success or failure) will remain intact even after a reset
+Use a test wallet only
 
+Do not import your real wallet during testing
 
----
+Resetting RPS will regenerate new words and clear previous authentication
 
-## 🪛 Installation
+🔏 Local-Only Storage
 
-Download latest installer from [Releases](https://github.com/LENT4869/Quori/releases).  
-Run it and follow the steps.
+Mnemonic words are hashed with salt and stored via IndexedDB
 
----
+No data is ever uploaded — 100% offline
 
-## 📷 Screenshots
+🪛 Installation
+📥 Download Quori installer from the Releases page
 
-| First Launch | RPS Verification | Unlocked |
-| ------------ | ---------------- | -------- |
-| *(add here)* | *(add here)*     | *(add here)* |
+Run mini_installer.exe
 
----
+Upon launch, follow the RPS setup
 
-## 📣 Feedback Welcome
+If icons or app name don’t update, try clearing your icon cache and reinstalling.
 
-Please open an [Issue](https://github.com/LENT4869/Quori/issues) if you encounter bugs, have suggestions, or want to help improve Quori!
+🖼️ Screenshots
+First Launch	RPS Verification	Unlocked Browser View
+(screenshot here)	(screenshot here)	(screenshot here)
 
----
+⚠️ Known Notes
+Some icons (taskbar/start menu) might not update immediately. Clear system icon cache if needed.
 
-## 👤 Author
+This is a Beta release. Bugs may exist — please report them!
 
-Made by [LENT](https://github.com/LENT4869)  
-Inspired by the need for secure access to Web3 environments.
+💬 Feedback & Issues
+Feel free to open an Issue for:
 
----
+Bug reports
 
-## 🪪 License
+Suggestions
 
-(c) 2025 LENT — All rights reserved.  
-Quori uses the [Chromium Project](https://www.chromium.org/) under the [BSD-3 license](https://chromium.googlesource.com/chromium/src/+/main/LICENSE).
+Contributions
+
+👤 Author
+Made by LENT
+Inspired by a desire to rethink browser-level protection for crypto and Web3 access.
+
+🪪 License
+(c) 2025 LENT — All rights reserved.
+Quori uses the Chromium Project under the BSD-3 license
