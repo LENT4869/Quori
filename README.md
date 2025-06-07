@@ -83,8 +83,14 @@ Submit issues or feedback via the [Issues Page](https://github.com/LENT4869/Quor
 
 Developed by **LENT**  
 Inspired by the need for secure Web3 access and wallet safety.
-
 ---
+
+## ☕ Support the Project
+
+If you find Quori useful and want to support its development, you can buy me a coffee:  
+👉 [https://coff.ee/lent4869](https://coff.ee/lent4869)
+
+Your support helps me continue improving Web3 browser security. Thank you! 🙏
 
 ## 🪪 License
 
