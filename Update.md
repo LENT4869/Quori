@@ -1,0 +1,1 @@
+2025/6/8 Fixed Pinned Extension Clicks
